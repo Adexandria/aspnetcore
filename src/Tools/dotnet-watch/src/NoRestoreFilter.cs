@@ -36,7 +36,6 @@ namespace Microsoft.DotNet.Watcher.Tools
                 }
                 else
                 {
-
                     context.Reporter.Verbose("Modifying command to use --no-restore");
                     context.ProcessSpec.Arguments = _noRestoreArguments;
                 }
